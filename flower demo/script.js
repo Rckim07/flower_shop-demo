@@ -1,3 +1,3 @@
 function addToCart(flowerName) {
-  alert(`Bạn đã thêm ${flowerName} vào giỏ hàng!`);
+  alert(flowerName + " đã được thêm vào giỏ hàng!");
 }
