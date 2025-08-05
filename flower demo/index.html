@@ -1,37 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Flower Shop</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Cửa Hàng Hoa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffe6f0;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #cc0066;
+      text-align: center;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .product {
+      background-color: #fff;
+      border: 2px solid #ffb6c1;
+      border-radius: 12px;
+      padding: 15px;
+      margin: 20px auto;
+      max-width: 400px;
+      box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+    }
+
+    .product img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .product h2 {
+      color: #cc0066;
+      font-size: 22px;
+      margin-top: 0;
+    }
+
+    .price {
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .buy-btn {
+      background-color: #ff66b2;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .buy-btn:hover {
+      background-color: #e60073;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to Pink Flower Shop </h1>
-  </header>
 
-  <section class="flowers">
-    <div class="flower-card">
-      <img src="image/rose.jpg" alt="Rose">
-      <h2>Rose</h2>
-      <p>$10 / bouquet</p>
-    </div>
+  <h1>Cửa Hàng Hoa</h1>
+  <div class="intro">Chọn những bông hoa tươi đẹp cho người thân yêu</div>
 
-    <div class="flower-card">
-      <img src="image\tulip.jpg" alt="Tulip">
-      <h2>Tulip</h2>
-      <p>$12 / bouquet</p>
-    </div>
+  <div class="product">
+    <img src="image\rose.jpg" alt="Hoa Hồng">
+    <h2>Hoa Hồng</h2>
+    <div class="price">Giá: 100.000₫</div>
+    <button class="buy-btn">Mua ngay</button>
+  </div>
 
-    <div class="flower-card">
-      <img src="image\lotus.jpg" alt="Lotus">
-      <h2>Lotus</h2>
-      <p>$9 / bouquet</p>
-    </div>
-  </section>
+  <div class="product">
+    <img src="image\tulip.jpg" alt="Hoa Tulip">
+    <h2>Hoa Tulip</h2>
+    <div class="price">Giá: 120.000₫</div>
+    <button class="buy-btn">Mua ngay</button>
+  </div>
 
-  <footer>
-    <p>© 2025 Pink Flower Shop. All rights reserved.</p>
-  </footer>
+  <div class="product">
+    <img src="image\lotus.jpg" alt="Hoa Sen">
+    <h2>Hoa Sen</h2>
+    <div class="price">Giá: 90.000₫</div>
+    <button class="buy-btn">Mua ngay</button>
+  </div>
+
 </body>
 </html>
